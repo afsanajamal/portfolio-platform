@@ -71,8 +71,20 @@ For testing purposes, use these accounts (seeded via `scripts/seed_admin.py`):
 
 ## Documentation
 
-- [Web Documentation](apps/web/README.md)
-- [API Documentation](apps/api/README.md)
+### Monorepo Documentation
+
+- [**Architecture Overview**](docs/ARCHITECTURE.md) - System architecture and component interactions
+- [**Development Workflow**](docs/DEVELOPMENT.md) - Daily development practices and workflows
+- [**Integration Guide**](docs/INTEGRATION.md) - Frontend-backend integration and API contracts
+- [**Contributing Guidelines**](docs/CONTRIBUTING.md) - Code standards and PR process
+- [**Deployment Guide**](docs/DEPLOYMENT.md) - Production deployment instructions
+- [**Environment Variables**](docs/ENVIRONMENT.md) - Complete environment configuration reference
+- [**Troubleshooting**](docs/TROUBLESHOOTING.md) - Common issues and solutions
+
+### Application-Specific Documentation
+
+- [**Web (Frontend)**](apps/web/README.md) - Next.js application documentation
+- [**API (Backend)**](apps/api/README.md) - FastAPI application documentation
 
 ## Tech Stack
 
@@ -108,4 +120,4 @@ For testing purposes, use these accounts (seeded via `scripts/seed_admin.py`):
 
 ## License
 
-This project is for portfolio and educational purposes.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
