@@ -1,0 +1,38 @@
+{
+  "nav": {
+    "projects": "\u30d7\u30ed\u30b8\u30a7\u30af\u30c8",
+    "users": "\u30e6\u30fc\u30b6\u30fc",
+    "activity": "\u64cd\u4f5c\u30ed\u30b0",
+    "login": "\u30ed\u30b0\u30a4\u30f3",
+    "logout": "\u30ed\u30b0\u30a2\u30a6\u30c8"
+  },
+  "common": {
+    "language": "\u8a00\u8a9e",
+    "english": "\u82f1\u8a9e",
+    "japanese": "\u65e5\u672c\u8a9e",
+    "save": "\u4fdd\u5b58",
+    "cancel": "\u30ad\u30e3\u30f3\u30bb\u30eb"
+  },
+  "login": {
+    "title": "\u30ed\u30b0\u30a4\u30f3",
+    "email": "\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9",
+    "password": "\u30d1\u30b9\u30ef\u30fc\u30c9",
+    "submit": "\u30ed\u30b0\u30a4\u30f3",
+    "error": "\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u307e\u305f\u306f\u30d1\u30b9\u30ef\u30fc\u30c9\u304c\u6b63\u3057\u304f\u3042\u308a\u307e\u305b\u3093"
+  },
+  "projects": {
+    "title": "\u30d7\u30ed\u30b8\u30a7\u30af\u30c8",
+    "create": "\u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u4f5c\u6210",
+    "empty": "\u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u304c\u3042\u308a\u307e\u305b\u3093\u3002"
+  },
+  "users": {
+    "title": "\u30e6\u30fc\u30b6\u30fc"
+  },
+  "activity": {
+    "title": "\u64cd\u4f5c\u30ed\u30b0"
+  },
+  "home": {
+    "title": "\u30c0\u30c3\u30b7\u30e5\u30dc\u30fc\u30c9",
+    "subtitle": "Project & Portfolio Platform"
+  }
+}

@@ -1,0 +1,10 @@
+node_modules
+.next
+out
+.env.local
+.env
+.DS_Store
+coverage
+playwright-report
+test-results
+e2e/.auth

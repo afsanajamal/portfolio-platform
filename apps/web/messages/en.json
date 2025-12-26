@@ -1,0 +1,38 @@
+{
+  "nav": {
+    "projects": "Projects",
+    "users": "Users",
+    "activity": "Activity",
+    "login": "Login",
+    "logout": "Logout"
+  },
+  "common": {
+    "language": "Language",
+    "english": "English",
+    "japanese": "Japanese",
+    "save": "Save",
+    "cancel": "Cancel"
+  },
+  "login": {
+    "title": "Sign in",
+    "email": "Email",
+    "password": "Password",
+    "submit": "Sign in",
+    "error": "Invalid credentials"
+  },
+  "projects": {
+    "title": "Projects",
+    "create": "Create Project",
+    "empty": "No projects yet."
+  },
+  "users": {
+    "title": "Users"
+  },
+  "activity": {
+    "title": "Activity Logs"
+  },
+  "home": {
+    "title": "Dashboard",
+    "subtitle": "Project & Portfolio Platform"
+  }
+}

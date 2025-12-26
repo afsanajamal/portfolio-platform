@@ -1,0 +1,12 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "bash -c 'source .venv/bin/activate 2>/dev/null || (python3 -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt) && uvicorn app.main:app --reload'",
+    "build": "echo 'No build step for FastAPI'",
+    "test": "bash -c 'source .venv/bin/activate && pytest'",
+    "lint": "echo 'Linting not configured yet'",
+    "clean": "find . -type d -name '__pycache__' -exec rm -rf {} + 2>/dev/null || true && rm -rf .pytest_cache"
+  }
+}

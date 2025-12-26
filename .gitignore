@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing
+coverage/
+.nyc_output
+playwright-report/
+test-results/
+
+# Next.js
+.next/
+out/
+build
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+.env
+*.env
+.env.local
+
+# Turborepo
+.turbo
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+*.log
+
+# Database
+*.db
+*.sqlite
+
+# Pytest
+.pytest_cache/
