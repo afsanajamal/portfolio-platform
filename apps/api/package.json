@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "bash -c 'source .venv/bin/activate 2>/dev/null || (python3 -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt) && uvicorn app.main:app --reload'",
+    "dev": ".venv/bin/uvicorn app.main:app --reload || (echo 'Virtual environment not set up. Run: cd apps/api && python3 -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt' && exit 1)",
     "build": "echo 'No build step for FastAPI'",
-    "test": "bash -c 'source .venv/bin/activate && pytest'",
+    "test": ".venv/bin/pytest || (echo 'Virtual environment not set up. Run setup first.' && exit 1)",
     "lint": "echo 'Linting not configured yet'",
     "clean": "find . -type d -name '__pycache__' -exec rm -rf {} + 2>/dev/null || true && rm -rf .pytest_cache"
   }
