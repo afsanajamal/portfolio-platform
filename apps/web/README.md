@@ -249,4 +249,4 @@ See [Testing & CI](docs/testing-and-ci.md) for details.
 
 ## License
 
-This project is for portfolio and educational purposes.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
